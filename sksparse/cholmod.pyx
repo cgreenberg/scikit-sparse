@@ -31,7 +31,7 @@
 
 #cython: binding = True
 #cython: language_level = 3
-#distutils: include_dirs = NP_GET_INCLUDE /usr/include/suitesparse
+#distutils: include_dirs = NP_GET_INCLUDE /usr/local/Cellar/suite-sparse/4.5.3/
 #distutils: libraries = cholmod
 
 cimport numpy as np
